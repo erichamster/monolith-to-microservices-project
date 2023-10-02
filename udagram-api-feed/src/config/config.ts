@@ -6,7 +6,7 @@ export const config = {
   'dialect': 'postgres',
   'aws_region': 'us-east-1',
   'aws_profile': 'default',
-  'aws_media_bucket': 'test-350883800889-dev',
+  'aws_media_bucket': 'test-744726797992-dev',
   'url': 'http://localhost:8080',
   'jwt': {
     'secret': 'testing',
