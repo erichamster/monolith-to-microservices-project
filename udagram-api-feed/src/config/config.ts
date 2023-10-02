@@ -2,7 +2,7 @@ export const config = {
   'username': 'eric',
   'password': '123456789',
   'database': 'postgres',
-  'host': 'cdr.cv32nctucne7.us-east-1.rds.amazonaws.com',
+  'host': 'db-tumeric.crd5cgsawih6.us-east-1.rds.amazonaws.com',
   'dialect': 'postgres',
   'aws_region': 'us-east-1',
   'aws_profile': 'default',
