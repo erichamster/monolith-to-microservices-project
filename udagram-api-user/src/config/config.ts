@@ -1,6 +1,6 @@
 export const config = {
   'username': 'eric',
-  'password': '123456789',
+  'password': '12345678',
   'database': 'postgres',
   'host': 'db-tumeric.crd5cgsawih6.us-east-1.rds.amazonaws.com',
   'dialect': 'postgres',
