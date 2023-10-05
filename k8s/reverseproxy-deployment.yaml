@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: tumeric/reverseproxy:v3
+      - image: tumeric/reverseproxy:v4
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
