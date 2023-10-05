@@ -7,6 +7,6 @@ data:
   JWT_SECRET: testing
   POSTGRES_DB: postgres
   POSTGRES_HOST: tumericdat.crd5cgsawih6.us-east-1.rds.amazonaws.com
-  # URL: ad1b1ccfae79c4f42bb5d7fef31eacc4-1043931615.us-east-1.elb.amazonaws.com
+  URL: ad1b1ccfae79c4f42bb5d7fef31eacc4-1043931615.us-east-1.elb.amazonaws.com
 metadata:
   name: env-config
