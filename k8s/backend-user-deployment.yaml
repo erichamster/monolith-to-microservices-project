@@ -15,7 +15,7 @@ spec:
         service: backend-user
     spec:
       containers:
-      - image: tumeric/udagram-api-user:v4
+      - image: tumeric/udagram-api-user:v5
         name: backend-user 
         imagePullPolicy: Always  
         resources:
@@ -26,11 +26,11 @@ spec:
             memory: "2048Mi"
             cpu: "500m"      
         env:
-        # - name: URL
-        #   valueFrom:
-        #     configMapKeyRef:
-        #       name: env-config
-        #       key: URL
+        - name: URL
+          valueFrom:
+            configMapKeyRef:
+              name: env-config
+              key: URL
         - name: JWT_SECRET
           valueFrom:
             configMapKeyRef:

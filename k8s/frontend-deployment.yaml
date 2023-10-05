@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: tumeric/udagram-frontend:v5
+      - image: tumeric/udagram-frontend:v6
         name: frontend
         imagePullPolicy: Always          
         ports:
