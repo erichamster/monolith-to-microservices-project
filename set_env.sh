@@ -1,9 +1,11 @@
-POSTGRES_USERNAME=eric
-POSTGRES_PASSWORD=12345678
-POSTGRES_HOST=tumericdat.crd5cgsawih6.us-east-1.rds.amazonaws.com
-POSTGRES_DB=postgres
-AWS_BUCKET=test-744726797992-dev
-AWS_REGION=us-east-1
-AWS_PROFILE=default
-JWT_SECRET=testing
-URL=a76ed6106460b49018eed63deea9c4a7-235055628.us-east-1.elb.amazonaws.com
+# This file is used for convenience of local development.
+# DO NOT STORE YOUR CREDENTIALS INTO GIT
+export POSTGRES_USERNAME=eric
+export POSTGRES_PASSWORD=12345678
+export POSTGRES_HOST=tumericdat.crd5cgsawih6.us-east-1.rds.amazonaws.com
+export POSTGRES_DB=postgres
+export AWS_BUCKET=arn:aws:s3:::test-744726797992-dev
+export AWS_REGION=us-east-1
+export AWS_PROFILE=default
+export JWT_SECRET=testing
+export URL=a76ed6106460b49018eed63deea9c4a7-235055628.us-east-1.elb.amazonaws.com
