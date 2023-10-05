@@ -28,7 +28,7 @@ script:
   # Tagging
   - docker tag udagram-api-feed tumeric/udagram-api-feed:v4
   - docker tag udagram-api-user tumeric/udagram-api-user:v4
-  - docker tag udagram-frontend tumeric/udagram-frontend:v4
+  - docker tag udagram-frontend tumeric/udagram-frontend:v5
   - docker tag reverseproxy tumeric/reverseproxy:v4
   # Do similar for other three images
 
@@ -38,6 +38,6 @@ after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker push tumeric/udagram-api-feed:v4
   - docker push tumeric/udagram-api-user:v4
-  - docker push tumeric/udagram-frontend:v4
+  - docker push tumeric/udagram-frontend:v5
   - docker push tumeric/reverseproxy:v4
   # Do similar for other three images 
